@@ -153,6 +153,7 @@ Navbar
 }
 .nav-links a {
   text-transform: capitalize;
+  color: white;
   display: inline-block;
   font-weight: bold;
   margin-right: 0.5rem;
@@ -163,7 +164,7 @@ Navbar
   transition: var(--mainTransition);
 }
 .nav-links a:hover {
-  color: var(--mainWhite);
+  color: black;
 }
 .logo {
   width: 12rem;
@@ -339,6 +340,10 @@ Cocktail
 .drink-info {
   padding-top: 2rem;
 }
+.back-home {
+  margin-top: 80px;
+}
+
 @media screen and (min-width: 992px) {
   .drink {
     display: grid;
@@ -357,7 +362,7 @@ Cocktail
   -webkit-animation: load1 1s infinite ease-in-out;
   animation: load1 1s infinite ease-in-out;
   width: 1em;
-  height: 4em;
+  height: 6em;
 }
 .loader {
   color: var(--primaryColor);
