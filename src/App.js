@@ -9,10 +9,9 @@ import Error from "./pages/Error";
 import Navbar from "./components/Navbar";
 const App = () => {
   return (
-    <div>
-      <Router>
-        <Navbar />
-        <Switch />
+    <Router>
+      <Navbar />
+      <Switch>
         <Route exact path="/">
           <Home />
         </Route>
@@ -25,8 +24,8 @@ const App = () => {
         <Route path="*">
           <Error />
         </Route>
-      </Router>
-    </div>
+      </Switch>
+    </Router>
   );
 };
 
