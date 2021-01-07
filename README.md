@@ -1,11 +1,7 @@
-#### React Router Fix
+Cocktail DB Website
 
-(Fix)[https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc]
+Run Npm Install && Npm Start
 
-#### CRA Fix
+Search for your favorite cocktail or find a new one!
 
-```
-
-"build": "CI= react-scripts build",
-
-```
+Technologies - custom hooks, context api, react router, cocktails DB api.
